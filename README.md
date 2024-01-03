@@ -1,0 +1,2 @@
+-CatPhotoApp: This is a simple HTML page with photos, buttons, and other elements
+-CafeMenue: A more complex HTML page with CSS
