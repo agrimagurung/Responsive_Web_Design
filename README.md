@@ -4,6 +4,7 @@
 4. RegistrationForm: Implement HTML forms with a signup page controlling input data types
 5. SurveyForm: A super kawaii survey form used to collect user data ˶ᵔ ᵕ ᵔ˶
 6. RothkoPainting: Uses CSS + Box Model to create Rothko-style art
+7. PhotoGallery: Uses Flexbox to build a responsive photo gallery webpage
    
 
 If you want to preview the pages, click: https://htmlpreview.github.io/ ٩(ˊᗜˋ*)و + —̳͟͞͞💗
