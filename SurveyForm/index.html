@@ -1,0 +1,92 @@
+<!-- Created by Agrima Gurung (01/04/24) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <!-- Fieldset for Title and Description -->
+  
+      <h1 id="title">Enchanted Opinions: <br>
+        A Magical Survey
+      </h1>
+      <p id="description">🌟 Ready for a burst of fun? 🚀 💬  Share your thoughts in our lightning-fast survey! 😊 💖</p>
+    
+
+    <!-- Form -->
+    <form id="survey-form"> 
+      <!-- Fieldset for Contact Information -->
+      <fieldset>
+        <!-- Name -->
+        <label for="name" id="name-label"> Let's be friends! What's your name? 💬:
+          <input id="name" type="text" required placeholder="ex: Agrima Gurung">
+        </label>
+
+        <!-- Email -->
+        <label for="email" id="email-label"> Drop your magical email below! 💌:
+          <input id="email" type="email" required placeholder="ex: agrimagurung@gmail.com">
+        </label>
+
+        <!-- Number -->
+        <label for="number" id="number-label"> Share your favorite number with us 🙈: 
+          <input id="number" type="number" required min="0" max="9" placeholder="ex: 7">
+        </label>
+      </fieldset>
+
+      <!-- Fieldset for Mood -->
+      <fieldset>
+        <!-- Dropdown -->
+        <label for="mood" id="dropdown-group"> Pick a color that represents your mood today 🤔💭: </label>
+        <select id="dropdown">
+          <option> (select option) </option>
+          <option> Sunshine Yellow 💛☀️🐥</option>
+          <option> Bubblegum Pink 💗🌷🫧</option>
+          <option> Ocean Blue 🌊🩵🐳 </option>
+          <option> Radient Red 🔥❤️🥵</option>
+        </select>
+      </fieldset>
+
+      <!-- Fieldset for Time Preference -->
+      <fieldset>
+        <!-- Radio button -->
+        <label id="radio-group">Do you prefer morning sunshine 🌅 or nighttime stargazing 🌌 🔭? : </label>
+        <label><input type="radio" name="group1" value="option1"> Morning Sunshine 🌝☀️</label>
+        <label><input type="radio" name="group1" value="option2"> Night-time Stargazing 🌑🌚</label>
+      </fieldset>
+
+      <!-- Fieldset for Magical Places -->
+      <fieldset>
+        <!-- Checkbox -->
+          <label id="checkbox-group">If you could visit a magical place, where would you go? (check all that apply) 🤩: </label>
+          <!-- #1 CandyLand -->
+          <label>
+            <input type="checkbox" name="checkboxGroup" value="option1"> Candy Land ☺️💕🍧🍬💖🍦🍡🎀
+          </label>
+          <!-- #2 CloudKingdom -->
+          <label>
+            <input type="checkbox" name="checkboxGroup" value="option2"> Cloud Kingdom 🏰😶‍🌫️🐉✨🌁
+          </label>
+          <!-- #3 RainbowValley -->
+          <label>
+            <input type="checkbox" name="checkboxGroup" value="option3"> Rainbow Valley 🌈🦄🍀🧚‍♀️🌷🐄
+          </label>
+          <!-- #4 StarryMeadows -->
+          <label>
+            <input type="checkbox" name="checkboxGroup" value="option4"> Starry Meadows 🐴🌾🌌😴🌳🪬🪷
+          </label>
+      </fieldset>
+
+      <!-- Fieldset for Starlight Wishes -->
+      <fieldset>
+        <!-- Textarea element -->
+        <label for="starlight-wishes">🌟 If you could whisper a wish to a star 🙊 💭, what enchanting dreams or desires would you share with your celestial friend? ✨ 💖 </label>
+        <textarea id="additional-comments" name="additional-comments" rows="10"></textarea >
+      </fieldset>
+
+      <!-- Submit button -->
+      <button id="submit" type="submit">Submit</button>
+      <p id="thank-you">🌟 Thank you! Your opinions light up our world! 😊 💖 🌎</p>
+    </form>
+  </body>
+</html>
