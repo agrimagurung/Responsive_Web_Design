@@ -5,7 +5,8 @@
 5. SurveyForm: A super kawaii survey form used to collect user data ˶ᵔ ᵕ ᵔ˶
 6. RothkoPainting: Uses CSS + Box Model to create Rothko-style art
 7. PhotoGallery: Uses Flexbox to build a responsive photo gallery webpage
-8. NutritionLabel: Uses typography to build a nutrition label webpage, expeiments with: styling text, adjusting line height, and positiong text using CSS
+8. NutritionLabel: Uses typography to build a nutrition label webpage, experiments with: styling text, adjusting line height, and positiong text using CSS
+9. BuildingQuiz: Use accessibility features such as keyboard shortcuts, ARIA attributes, and best practices in design to make a webpage accessible for people with disabilities.
    
 
 If you want to preview the pages, click: https://htmlpreview.github.io/ ٩(ˊᗜˋ*)و + —̳͟͞͞💗
