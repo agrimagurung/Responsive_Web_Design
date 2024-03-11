@@ -1,0 +1,120 @@
+/* Base font size for easier rem calculations */
+html {
+  font-size: 10px;
+      background-color: #8a3d1a;
+}
+
+/* Body styles */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.6rem; /* 16px */
+  line-height: 1.5;
+  text-align: center;
+  color: #8a3d1a;
+  margin: 0;
+}
+
+/* Heading 1 styles */
+h1 {
+  font-size: 4rem; /* 40px */
+  margin-bottom: 0; /* Remove default bottom margin */
+}
+
+/* Responsive styles for heading 1 */
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem; /* 35px */
+    line-height: 1.2; /* Adjust line height */
+  }
+}
+
+/* Heading 2 styles */
+h2 {
+  font-size: 3.25rem; /* 32.5px */
+}
+
+/* Anchor link styles */
+a {
+  color: #fbcd6b; /* yellow color for links */
+}
+
+/* Visited anchor link styles */
+a:visited {
+  color: #e26211; /* Darker color for visited links */
+}
+
+/* Main content container styles */
+#main {
+  margin: 40px 20px; /* Top and bottom margin, left and right padding */
+  padding: 20px;
+  border-radius: 5px;
+  background: #FFFFFF; /* Light gray background */
+}
+
+/* Responsive styles for main content container */
+@media (max-width: 460px) {
+  #main {
+    margin: 0; /* Remove margins on smaller screens */
+  }
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+
+/* Image container styles */
+#img-div {
+  background: #8a3d1a; /* White background for image container */
+  padding: 30px; /* Padding around the image */
+  margin: 0; /* Remove margins */
+}
+
+/* Image caption styles */
+#img-caption {
+  margin: 15px 0 5px 0; /* Margin for the image caption */
+    color: white; /* Set text color to white */
+
+}
+
+/* Responsive styles for image caption */
+@media (max-width: 460px) {
+  #img-caption {
+    font-size: 1.4rem; /* 14px font size for smaller screens */
+  }
+}
+
+/* Headline styles */
+#headline {
+  margin: 50px 0; /* Margin for headlines */
+  text-align: center; /* Center align headlines */
+}
+
+/* Unordered list styles */
+ul {
+  max-width: 550px; /* Limit the width of the list */
+  margin: 0 auto 50px auto; /* Center the list and add bottom margin */
+  text-align: left; /* Left align list items */
+  line-height: 1.6; /* Line height for better readability */
+}
+
+/* List item styles */
+li {
+  margin: 16px 0; /* Margin for list items */
+}
+
+/* Blockquote styles */
+blockquote {
+  font-style: italic; /* Italicize blockquotes */
+  max-width: 545px; /* Limit the width of blockquotes */
+  margin: 0 auto 50px auto; /* Center align blockquotes and add bottom margin */
+  text-align: left; /* Left align blockquote content */
+}
+
+
