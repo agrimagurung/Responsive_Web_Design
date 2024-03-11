@@ -7,6 +7,6 @@
 7. PhotoGallery: Uses Flexbox to build a responsive photo gallery webpage
 8. NutritionLabel: Uses typography to build a nutrition label webpage, experiments with: styling text, adjusting line height, and positiong text using CSS
 9. BuildingAccessibleQuiz: Use accessibility features such as keyboard shortcuts, ARIA attributes, and best practices in design to make a webpage accessible for people with disabilities.
-   
+10. TributePage: Built a tribute page for Kyōjurō Rengoku (T-T), following user stories such as including elements with specific IDs like "main", "title", "img-div", "image", "img-caption", "tribute-info", and "tribute-link", along with additional styling requirements.
 
 If you want to preview the pages, click: https://htmlpreview.github.io/ ٩(ˊᗜˋ*)و + —̳͟͞͞💗
