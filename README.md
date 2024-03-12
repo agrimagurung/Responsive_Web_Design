@@ -10,6 +10,7 @@
 10. TributePage: Built a tribute page for Kyōjurō Rengoku (T-T), following user stories such as including elements with specific IDs like "main", "title", "img-div", "image", "img-caption", "tribute-info", and "tribute-link", along with additional styling requirements.
 11. BalanceSheet: Uses CSS pseudo selectors to style HTML elements, with a focus on building a balance sheet featuring hover effects and interactive events.
 12. CatPainting: Master CSS skills using absolute positiong, z-index property, and transform property
+13. Piano: Built paino using responsive web design, CSS, media queries, and pseudo selectors.
 
 
 If you want to preview the pages, click: https://htmlpreview.github.io/ ٩(ˊᗜˋ*)و + —̳͟͞͞💗
