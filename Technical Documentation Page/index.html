@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+<main id="main-doc">
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <header>
+            <h1>HTML + CSS Documentation</h1>
+        </header>
+        <a class="nav-link" href="#introduction_to_html_and_css">Introduction to HTML and CSS</a>
+        <a class="nav-link" href="#html_basics">HTML Basics</a>
+        <a class="nav-link" href="#css_basics">CSS Basics</a>
+        <a class="nav-link" href="#layout_techniques">Layout Techniques</a>
+        <a class="nav-link" href="#responsive_design_with_css">Responsive Design with CSS</a>
+    </nav>
+
+
+
+
+    <!-- Introduction section -->
+    <section class="main-section" id="introduction_to_html_and_css">
+        <header>Introduction to HTML and CSS</header>
+
+        <p>HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) are the core technologies used for creating and styling web pages.</p>
+        <p>HTML is used to structure the content of a webpage, defining elements such as headings, paragraphs, lists, links, and images.</p>
+        <p>CSS is used to style the appearance of HTML elements, controlling aspects like color, font, layout, and spacing.</p>
+        <p>Together, HTML and CSS enable web designers and developers to create visually appealing and well-structured websites.</p>
+    </section>
+
+
+
+
+
+    <!-- HTML section -->
+    <section class="main-section" id="html_basics">
+        <header>HTML Basics</header>
+        <h3>Introduction to HTML tags and elements.</h3>
+                <p>HTML (Hypertext Markup Language) is the standard markup language used to create the structure and content of web pages.</p>
+
+        <h3>Explanation of HTML document structure (DOCTYPE, html, head, body).</h3>
+        <p>An HTML document begins with a DOCTYPE declaration that specifies the HTML version and document type. The <code>&lt;!DOCTYPE html&gt;</code> declaration is used for HTML5 documents.</p>
+        <p>The <code>&lt;html&gt;</code> element contains the entire HTML document, including all other elements.</p>
+        <p>The <code>&lt;head&gt;</code> element contains meta-information about the document, such as the document's title, character encoding, and links to external resources like stylesheets and scripts.</p>
+        <p>The <code>&lt;body&gt;</code> element contains the content of the document, including text, images, links, and other elements visible to the user.</p>
+
+        <h3>Commonly used HTML elements (e.g., headings, paragraphs, lists, links, images).</h3>
+                <p>HTML includes various elements for structuring content and defining its appearance. Some commonly used elements include:</p>
+        <ul>
+            <li><strong>Headings:</strong> <code>&lt;h1&gt;</code> to <code>&lt;h6&gt;</code> for headings of different levels.</li>
+            <img src="https://www.schudio.com/wp-content/uploads/2016/10/html-headings.png?x50398" alt="Italian Trulli">
+
+            <li><strong>Paragraphs:</strong> <code>&lt;p&gt;</code> for paragraphs of text.</li>
+            <li><strong>Lists:</strong> <code>&lt;ul&gt;</code> for unordered lists (bullet points), <code>&lt;ol&gt;</code> for ordered lists (numbered), and <code>&lt;li&gt;</code> for list items.</li>
+            <li><strong>Links:</strong> <code>&lt;a&gt;</code> for hyperlinks to other pages or resources.</li>
+            <li><strong>Images:</strong> <code>&lt;img&gt;</code> for embedding images into the document.</li>
+        </ul>
+    </section>
+
+
+
+
+
+    <!-- CSS section -->
+    <section class="main-section" id="css_basics">
+        <header>CSS Basics</header>
+        <h3>Introduction to CSS and its purpose.</h3>
+        <p>CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of HTML documents.</p>
+        <p>Its main purpose is to control the layout, styling, and appearance of web pages.</p>
+
+        <h3>Explanation of CSS syntax (selectors, properties, values).</h3>
+        <p>CSS operates by targeting HTML elements and applying rules to define how those elements should be displayed.</p>
+        <p>The basic syntax of CSS includes selectors, properties, and values:</p>
+        <ul>
+            <li><strong>Selectors:</strong> Selectors target HTML elements to which the styles will be applied. They can be element selectors, class selectors, ID selectors, etc.</li>
+            <li><strong>Properties:</strong> Properties define the aspects of an element's appearance that you want to style, such as color, font size, margin, padding, etc.</li>
+            <li><strong>Values:</strong> Values specify the settings for the properties, such as specific colors, sizes, or positions.</li>
+        </ul>
+        <h3>Different ways to apply CSS styles (inline, internal, external).</h3>
+                <p>CSS styles can be applied in various ways:</p>
+        <ul>
+            <li><strong>Inline:</strong> Styles can be applied directly to HTML elements using the <code>style</code> attribute.</li>
+            <li><strong>Internal:</strong> Styles can be defined within the <code>&lt;style&gt;</code> tag in the <code>&lt;head&gt;</code> section of an HTML document.</li>
+            <li><strong>External:</strong> Styles can be defined in an external CSS file and linked to the HTML document using the <code>&lt;link&gt;</code> tag.</li>
+        </ul>
+    </section>
+
+
+
+
+
+
+    <!-- Layout techniques section -->
+    <section class="main-section" id="layout_techniques">
+        <header>Layout Techniques</header>
+        <h3>Introduction to layout techniques using CSS.</h3>
+        <p>Layout techniques in CSS involve positioning and arranging elements on a webpage to achieve a desired visual presentation and structure.</p>
+
+        <h3>Explanation of different layout models (e.g., static, relative, absolute, float).</h3>
+        <p>CSS offers several layout models, including:</p>
+        <ul>
+            <li><strong>Static:</strong> Elements are positioned according to the normal flow of the document. They do not move when the page is scrolled or resized.</li>
+            <li><strong>Relative:</strong> Elements are positioned relative to their normal position in the document flow. They can be moved using properties like <code>top</code>, <code>left</code>, <code>right</code>, and <code>bottom</code>.</li>
+            <li><strong>Absolute:</strong> Elements are positioned relative to their closest positioned ancestor (or the initial containing block if no positioned ancestor). They are removed from the normal document flow.</li>
+            <li><strong>Float:</strong> Elements are moved to the left or right of their containing element, allowing other content to flow around them.</li>
+        </ul>
+
+        <h3>Examples of creating basic layouts using CSS.</h3>
+         <div class="layout-example">
+            <h3>Example 1: Static Layout</h3>
+            <p>This is an example of a static layout where elements are positioned according to the normal document flow.</p>
+            <!-- Add your HTML/CSS code for the static layout here -->
+        </div>
+        <div class="layout-example">
+            <h3>Example 2: Relative Layout</h3>
+            <p>This is an example of a relative layout where elements are positioned relative to their normal position in the document flow.</p>
+            <!-- Add your HTML/CSS code for the relative layout here -->
+        </div>
+        <div class="layout-example">
+            <h3>Example 3: Absolute Layout</h3>
+            <p>This is an example of an absolute layout where elements are positioned relative to their closest positioned ancestor.</p>
+            <!-- Add your HTML/CSS code for the absolute layout here -->
+        </div>
+        <div class="layout-example">
+            <h3>Example 4: Float Layout</h3>
+            <p>This is an example of a float layout where elements are floated to the left or right of their containing element.</p>
+            <!-- Add your HTML/CSS code for the float layout here -->
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- Responsive design section -->
+    <section class="main-section" id="responsive_design_with_css">
+        <header>Responsive Design with CSS</header>
+        <h3>Overview of responsive design principles.</h3>
+        <p>Responsive design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes.</p>
+        <p>The goal of responsive design is to provide a consistent user experience across different devices, from desktop computers to smartphones and tablets.</p>
+        
+        <h3>Explanation of media queries and viewport meta tag.</h3>
+        <p>Media queries are CSS rules that apply styles based on the characteristics of the device or viewport, such as its width, height, or aspect ratio.</p>
+        <p>The <code>&lt;meta name="viewport"&gt;</code> tag specifies the viewport settings for the webpage, controlling how the page is displayed on different devices.</p>
+        
+        <h3>Techniques for creating responsive layouts and elements.</h3>
+        <p>There are several techniques for creating responsive layouts and elements:</p>
+        <ul>
+            <li><strong>Fluid grids:</strong> Use percentages instead of fixed pixels for layout widths to create fluid layouts that adapt to different screen sizes.</li>
+            <li><strong>Flexible images:</strong> Use CSS properties like <code>max-width: 100%;</code> to ensure images scale proportionally within their parent containers.</li>
+            <li><strong>Media queries:</strong> Use media queries to apply different styles based on the device's screen size or orientation, adjusting layout, font sizes, and other properties accordingly.</li>
+            <li><strong>Viewport meta tag:</strong> Set the viewport meta tag to control the width and scale of the viewport on mobile devices, ensuring proper rendering and scaling of the webpage.</li>
+        </ul>
+
+    </section>
+
+</main>
+
+</body>
+</html>
