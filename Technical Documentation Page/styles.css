@@ -1,0 +1,74 @@
+html {
+  background-color:#fff3db; /* sets color 4 entire page */
+  padding-top: 10;
+}
+
+body {
+    font-size: 18px; /* Set the default font size to 18 pixels */
+    margin: 10px;
+    color: #1d1d1d;
+}
+
+/* Style for the navbar */
+#navbar {
+  background-color: #FFB4C3; /* Background color for the navbar */
+  padding: 10px;  /* Add padding to create space around the links */
+    position: fixed;
+    min-width: 290px;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+    border-right: solid;
+    border-color: #FF8199;
+}
+#main-doc {
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
+
+h1 {
+  font-weight: bold;
+  color: #1d1d1d;
+  font-size: 45;
+}
+
+/*code 4 all headers*/
+header {
+  font-weight: bold;
+  font-size: 1.7em; /* 18px * 1.6 = 28.8 */
+  color: #FF8199;
+}
+
+
+
+/* LINK STYLES BELOW*/
+
+/* style for each link block*/
+.nav-link {
+  font-size: 20;
+  border-top: 1px solid;
+  display: block;
+  color: white;
+  text-decoration: none; /* removes auto underline :O */
+    padding: 15px 10px; /* top+bottom & left+right*/
+}
+
+/* Hover effect for each link */
+.nav-link:hover {
+  background-color: #FF8199; /* Change background color on hover */
+}
+
+
+@media (max-width: 768px) {
+
+
+  #main-doc {
+    margin-left: 0;
+    margin-top: 20px;
+    position: relative;
+  }
+
+}
